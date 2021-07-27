@@ -1,5 +1,20 @@
 {
-  "dependencies": {
-    "jest": "^27.0.6"
+  "name": "js-mocking-fundamentals",
+  "version": "1.0.0",
+  "description": "JavaScript Mocking Fundamentals",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "create-jest-runner": "^0.7.0",
+    "glob": "^7.1.6",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
   }
 }
